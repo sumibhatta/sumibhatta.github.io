@@ -25,3 +25,33 @@ header {
     margin: 0 auto;
     padding: 30px 80px;
 }
+
+.quote>h1,
+.quote>p {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* Second Section -- Github */
+
+.column {
+    margin: 0 auto;
+    display: table;
+}
+
+.row {
+    float: left;
+    margin-right: 20px;
+}
+
+.card,
+.card>* {
+    padding: 20px;
+}
+
+.more-repo {
+    display: table;
+    margin: 0 auto;
+    padding: 20px 0;
+}

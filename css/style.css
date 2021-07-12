@@ -11,3 +11,23 @@
 .section-header {
     font-size: xx-large;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.322);
+}
+
+.card,
+.card>* {
+    background-color: #AB6B51;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.more-repo {
+    text-decoration: underline;
+}
