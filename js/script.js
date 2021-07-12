@@ -23,5 +23,13 @@ fetch("https://api.github.com/users/sumibhatta/repos")
                 link[i].setAttribute('href', a[i]['clone_url']);
 
             }
+
+            for (let i = 0; i < a.length; i++) {
+                console.log(a)
+                document.getElementById('obj-id').innerHTML += a[i]['id'] + "<br/>";
+                document.getElementById('main').innerHTML += a[i]['name'] + "<br/>";
+                document.getElementById('obj-links').innerHTML += a[i]['clone_url'] + "<br/>";
+
+            }
         }
     )

@@ -31,3 +31,14 @@
 .more-repo {
     text-decoration: underline;
 }
+
+
+/* Table of all repos */
+
+table,
+tr,
+th,
+td {
+    border: 1px solid brown;
+    padding: 5px;
+}
