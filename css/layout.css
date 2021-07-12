@@ -1,0 +1,27 @@
+header {
+    margin: 80px auto 90px auto;
+    display: table;
+}
+
+#my-image {
+    width: 100%;
+}
+
+.about-me {
+    position: relative;
+}
+
+.section-text {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    top: 0;
+    margin: 55px;
+    padding: 50px;
+}
+
+.quote {
+    display: table;
+    margin: 0 auto;
+    padding: 30px 80px;
+}
