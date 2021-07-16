@@ -5,11 +5,15 @@
 .section-text>* {
     background-color: #a0512d00;
     color: white;
-    padding-bottom: 20px;
 }
 
 .section-header {
-    font-size: xx-large;
+    /*font-size: xx-large;*/
+    font-size: large;
+}
+
+.section-text>p {
+    font-size: 0.75em;
 }
 
 .card {
@@ -40,5 +44,83 @@ tr,
 th,
 td {
     border: 1px solid brown;
-    padding: 5px;
 }
+
+.footer-top {
+    background-color: #D0B49F;
+    color: white;
+    text-align: center;
+}
+
+form {
+    background-color: #D0B49F;
+}
+
+.input-field {
+    border: none;
+    background-color: #d0b49f;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+.button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+
+/* Hiding spinners and arrows */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.message-input {
+    padding: 34px 0 3px 0;
+}
+
+.footer-bottom {
+    background-color: #523A28;
+    color: white;
+    text-align: center;
+}
+
+
+/* Screen Greater than 480 px*/
+
+@media screen and (min-width: 480px) {
+    .section-header {
+        font-size: xx-large;
+    }
+    .section-text>p {
+        font-size: 2em;
+    }
+}
+
+
+/*Screen greater than 768px*/
+
+@media screen and (min-width: 768px) {}
+
+
+/*Screen greater than 992px*/
+
+@media screen and (min-width: 992px) {}
+
+
+/*Screen greater thab 1200 px*/
+
+@media screen and (min-width: 1200px) {}

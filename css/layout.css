@@ -3,6 +3,10 @@ header {
     display: table;
 }
 
+header>img {
+    width: 100%;
+}
+
 #my-image {
     width: 100%;
 }
@@ -16,8 +20,12 @@ header {
     width: 60%;
     height: 80%;
     top: 0;
-    margin: 55px;
-    padding: 50px;
+    margin: 0.9em;
+    padding: 0.6em;
+}
+
+.section-text>* {
+    padding-bottom: 10px;
 }
 
 .quote {
@@ -40,14 +48,14 @@ header {
     display: table;
 }
 
-.row {
-    float: left;
-    margin-right: 20px;
+.card {
+    margin: 1em;
+    padding: 1.5em;
 }
 
-.card,
 .card>* {
-    padding: 20px;
+    padding: 5px;
+    margin: 5px;
 }
 
 .more-repo {
@@ -68,3 +76,63 @@ table {
     display: table;
     margin: 0 auto;
 }
+
+table,
+tr,
+th,
+td {
+    padding: 5px;
+}
+
+.section-header {
+    background: border-box;
+}
+
+.input-field {
+    display: block;
+    padding: 5px 0px;
+}
+
+.form-button {
+    padding: 5px 60px 5px 60px;
+    margin: 10px 0;
+    float: left;
+}
+
+.footer-top {
+    padding: 10px
+}
+
+.footer-bottom {
+    font-size: 0.9em;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+/* Screen Greater than 480 px*/
+
+@media screen and (min-width: 480px) {
+    .section-text {
+        margin: 55px;
+        padding: 50px;
+    }
+    .row {
+        float: left;
+    }
+}
+
+
+/*Screen greater than 768px*/
+
+@media screen and (min-width: 768px) {}
+
+
+/*Screen greater than 992px*/
+
+@media screen and (min-width: 992px) {}
+
+
+/*Screen greater thab 1200 px*/
+
+@media screen and (min-width: 1200px) {}
