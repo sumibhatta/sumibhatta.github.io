@@ -1,108 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sumi Bhatta</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script defer src="./js/script.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
+    <section id="one">
+      <navbar id="left-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="./pages/resume.html">Resume</a></li>
+        </ul>
+      </navbar>
+      <navbar id="right-nav">
+        <ul>
+          <li><a href="#">Daily Writing</a></li>
+          <li><a href="#">College</a></li>
+          <li><a href="./pages/projects.html">Projects</a></li>
+        </ul>
+      </navbar>
+    </section>
     <header>
-        <img src="./img/path862.png" alt="Sumi Bhatta">
+      <h3><a href="index.html">Sumi Bhatta</a></h3>
     </header>
+    <false>
+      <!-- I want to make scroll and sticky navbar by placing navs on sides of the header like padding 50-55 on navbar but I feel lazy to add js I will do it later be sure to remind me -->
+    </false>
+
     <main>
-        <section class="about-me">
-            <div class="section-image">
-                <img id="my-image" src="./img/sumi-1.png" alt="sumi">
-            </div>
-            <div class="section-text">
-                <h1 class="section-header">About Me</h1>
-                <p>
-                    Hello, there!! I am a computer science student and a tech enthusiast, currently versed to be a web developer. I love exploring new things, and in addition to that I am also intersted in designing, animations and hardware related stuffs. Lorem ipsum dolor
-                    sit amet consectetur adipisicing elit. Quos reiciendis tenetur vitae id odio.
-                </p>
-            </div>
-        </section>
+      <section class="section what-i-do">
+        <h1 class="section-title">[What I Do]</h1>
+        <p>Everyday is not the same yet...</p>
+        <div class="blocks">
+          <block class="block block-1">
+            <img src="./img/eat.png" alt="nothing" />
+            <h3>Read</h3>
+            <p>
+              I generally like to read books, blogs and.. naa.... it's just
+              I spend most of my time scrolling through social
+              sites and youtube...
+            </p>
+          </block>
+          <block class="block block-2">
+            <img src="./img/sleep.png" alt="nothing" />
+            <h3>Sleep</h3>
+            <p>
+              I sleep a lot. <br />It is the best medicine aien't it?<br />Who
+              doesn't love to sleep
+            </p>
+          </block>
+          <block class="block block-2">
+            <img src="./img/school.png" alt="nothing" />
+            <h3>College</h3>
+            <p>
+              If pandamic doesn't ... hits, I love spending time with my friends
+              actually. And that's the reason I love going to college
+            </p>
+          </block>
+        </div>
+      </section>
 
-        <section class="quote">
-            <h1>Github Projects</h1>
-            <p>It's a mess but still... Check em' out!!</p>
-        </section>
+      <section class="quote section">
+        <h1 class="section-title">[Github Projects]</h1>
+        <p>Still... Check em' out!!</p>
         <section class="my-works">
-            <div class="container">
-                <ul class="column">
-                    <li class="row">
-                        <div class="card">
-                            <h4 class="name"></h4>
-                            <p class="language"></p>
-                            <a href="#" class="link" target="_blank">Goto Repo</a>
-                        </div>
-                    </li>
-                    <li class="row">
-                        <div class="card">
-                            <h4 class="name"></h4>
-                            <p class="language"></p>
-                            <a href="#" class="link" target="_blank">Goto Repo</a>
-                        </div>
-                    </li>
-                    <li class="row">
-                        <div class="card">
-                            <h4 class="name"></h4>
-                            <p class="language"></p>
-                            <a href="#" class="link" target="_blank">Goto Repo</a>
-                        </div>
-                    </li>
-                    <li class="row">
-                        <div class="card">
-                            <h4 class="name"></h4>
-                            <p class="language"></p>
-                            <a href="#" class="link" target="_blank">Goto Repo</a>
-                        </div>
-                    </li>
-                    <li class="row">
-                        <div class="card">
-                            <h4 class="name"></h4>
-                            <p class="language"></p>
-                            <a href="#" class="link" target="_blank">Goto Repo</a>
-                        </div>
-                    </li>
-                </ul>
-                <a href="/pages/allrepos.html" class="more-repo" target="_blank">See All Repos...</a>
+          <a href="#" class="link" target="_blank">
+            <div class="card">
+              <h4 class="name"></h4>
+              <p class="language"></p>
+              <p class="link-to-repo">Goto Repo</p>
             </div>
-        </section>
-        <section class="blogs">
+          </a>
+          <a href="#" class="link" target="_blank">
+            <div class="card">
+              <h4 class="name"></h4>
+              <p class="language"></p>
+              <p class="link-to-repo">Goto Repo</p>
+            </div>
+          </a>
 
+          <a href="#" class="link" target="_blank">
+            <div class="card">
+              <h4 class="name"></h4>
+              <p class="language"></p>
+              <p class="link-to-repo">Goto Repo</p>
+            </div>
+          </a>
+          <a href="#" class="link" target="_blank">
+            <div class="card">
+              <h4 class="name"></h4>
+              <p class="language"></p>
+              <p class="link-to-repo">Goto Repo</p>
+            </div>
+          </a>
+          <a href="#" class="link" target="_blank">
+            <div class="card">
+              <h4 class="name"></h4>
+              <p class="language"></p>
+              <p class="link-to-repo">Goto Repo</p>
+            </div>
+          </a>
         </section>
+        <a href="/pages/allrepos.html" target="_blank">
+          <button class="more-repo">See All Repos...</button></a
+        >
+      </section>
+      <section class="section about-me">
+        <h1 class="section-title">[About Me]</h1>
+        <p>What I am...</p>
+
+        <div class="containers">
+          <div class="container ">
+            <p class="all-about-me">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit
+              autem qui eum ducimus, ipsa, dolorum fuga sequi animi assumenda,
+              commodi laboriosam voluptate veritatis iure nulla quos soluta
+              perspiciatis sed tempora.
+            </p>
+            <section class="icons">
+              <div class="onelink social-links">
+                <a href="facebook.com"
+                  ><img src="./img/icons8-facebook-64.png" alt="link-to-facebook"
+                /></a>
+              </div>
+              <div class="twolink social-links">
+                <a href="facebook.com"
+                  ><img src="./img/icons8-instagram-64.png" alt="link-to-facebook"
+                /></a>
+              </div>
+              <div class="threelink social-links">
+                <a href="facebook.com"
+                  ><img src="./img/icons8-twitter-64.png" alt="link-to-facebook"
+                /></a>
+              </div>
+              <div class="fourlink social-links">
+                <a href="facebook.com"
+                  ><img src="./img/icons8-youtube-logo-64.png" alt="link-to-facebook"
+                /></a>
+              </div>
+            </section>
+          </div>
+          <!-- <div class="container container-right">
+            <img src="./img/sumi-500.png" alt="Sumi Bhatta" />
+          </div> -->
+        </div>
+      </section>
     </main>
     <footer>
-        <section class="footer-top clearfix">
-            <h1 class="section-header">
-                Leave a message:
-            </h1>
-            <form action="#" method="get">
-                <input class="name-input input-field" type="text" placeholder="John Doe" required>
-                <input class="phone-input input-field" type="number" placeholder="9809080989">
-                <input class="email-me-input input-field" type="email" placeholder="example@example.com">
-                <input class="message-input input-field" type="text" placeholder="Message..." required>
-                <button class="button form-button">Submit</button>
-            </form>
-        </section>
-        <section class="footer-middle">
-            <h1>Follow Me On:</h1>
-        </section>
-        <section class="footer-bottom">
-            Created By &hearts; Sumi Bhatta
-        </section>
-    </footer>
-</body>
+      <section class="section footer-top clearfix">
+        <h1 class="section-title">[Leave a message]</h1>
+        <p>Short and Sweet...</p>
+        <div class="messages">
+          <div class="message message-left">
+            <img src="./img/mailbox(1).png" alt="Message Me" />
+          </div>
 
+          <div class="message message-right">
+            <form action="#" method="get">
+              <input
+                class="name-input input-field"
+                type="text"
+                placeholder="John Doe"
+                required
+              />
+              <textarea
+                class="message-input input-field"
+                rows="5"
+                cols="15"
+                required
+              >
+Message
+                        </textarea
+              >
+              <button class="button form-button more-repo">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="footer-bottom">Created By &hearts; Sumi Bhatta</section>
+    </footer>
+  </body>
 </html>

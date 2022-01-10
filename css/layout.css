@@ -1,138 +1,170 @@
+/* ------------------NAVBAR STSRTS---------------------- */
+navbar,
+#left-nav li,
+#right-nav li {
+  display: inline-block;
+}
+
+#right-nav {
+  float: right;
+}
+
 header {
-    margin: 80px auto 90px auto;
-    display: table;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  font-size: xxx-large;
+  padding: 40px 0 20px 0;
 }
 
-header>img {
-    width: 100%;
+#one {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+navbar {
+  margin: 15px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
-#my-image {
-    width: 100%;
+#left-nav li,
+#right-nav li {
+  padding: 15px;
 }
 
-.about-me {
-    position: relative;
+false {
+  width: 100%;
+  height: 100px;
+  display: block;
+  position: relative;
+  top: -45px;
+}
+/* ------------------NAVBAR ENDS---------------------- */
+/* ------------------ SECTION 1 STARTS---------------------- */
+
+.section {
+  text-align: center;
+  /* font-size: x-large; */
+  line-height: 1.6rem;
+  font-size: 1.2rem;
+  padding: 75px 20px 20px 20px;
+  margin-top: -45px;
+}
+.section-title {
+  padding: 20px 0;
+}
+.blocks {
+  display: flex;
+  padding: 0 0 0 165px;
 }
 
-.section-text {
-    position: absolute;
-    width: 60%;
-    height: 80%;
-    top: 0;
-    margin: 0.9em;
-    padding: 0.6em;
+.block {
+  flex: 1;
+  display: inline-block;
+  max-width: 28%;
+  margin: 59px 7px;
+  /* min-height: 100px; */
+  /* text-align: center;  */
 }
 
-.section-text>* {
-    padding-bottom: 10px;
+.block h3 {
+  margin: 20px 0;
+}
+.block p {
+  margin-top: 25px;
+}
+/* ------------------ SECTION 1 Ends---------------------- */
+
+/* ------------------ SECTION 2 STARTS---------------------- */
+.my-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+}
+.link {
+  flex: 0 0 30%;
+  /* border: 1px solid #fff; */
+  display: inline-block;
+  min-height: 30px;
+  margin: 5px;
+  padding: 52px;
 }
 
-.quote {
-    display: table;
-    margin: 0 auto;
-    padding: 30px 80px;
-}
-
-.quote>h1,
-.quote>p {
-    text-align: center;
-    padding: 5px;
-}
-
-
-/* Second Section -- Github */
-
-.column {
-    margin: 0 auto;
-    display: table;
-}
-
-.card {
-    margin: 1em;
-    padding: 1.5em;
-}
-
-.card>* {
-    padding: 5px;
-    margin: 5px;
-}
 
 .more-repo {
-    display: table;
-    margin: 0 auto;
-    padding: 20px 0;
+  /* height: 10px;
+  width: 150px; */
+  /* display: table;
+  margin: 0 auto; */
+  padding: 9px 25px;
 }
 
 
-/* Table */
-
-#allrepos-title {
-    text-align: center;
-    padding: 20px;
+.about-me> .section-title{
+  margin-top: 40px;
 }
 
-table {
-    display: table;
-    margin: 0 auto;
+.all-about-me{
+  padding: 26px 146px;
+}
+/* ---------------------END OF --------------- */
+/* ---------------------START OF --------------- */
+.containers {
+  display: flex;
+  padding: 0 20px;
+  /* display: inline-block; */
+}
+.container {
+  /* display: inline-block; */
+}
+.container-left {
+  flex: 60;
+  padding: 120px 0;
+}
+.container-right {
+  flex: 30;
 }
 
-table,
-tr,
-th,
-td {
-    padding: 5px;
+.message {
+  display: inline-block;
+  margin-bottom: 45px;
 }
 
-.section-header {
-    background: border-box;
-}
-
-.input-field {
-    display: block;
-    padding: 5px 0px;
+.message-left {
+  position: relative;
+  top: 30px;
+  padding-right: 40px;
 }
 
 .form-button {
-    padding: 5px 60px 5px 60px;
-    margin: 10px 0;
-    float: left;
+  width: 237px;
+  border-radius: 3px;
 }
 
-.footer-top {
-    padding: 10px
+.social-links{
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 0;
 }
 
-.footer-bottom {
-    font-size: 0.9em;
-    padding: 10px;
-    margin-top: 10px;
+.messages{
+  padding: 0 100px 0 0;
 }
-
-
-/* Screen Greater than 480 px*/
-
-@media screen and (min-width: 480px) {
-    .section-text {
-        margin: 55px;
-        padding: 50px;
-    }
-    .row {
-        float: left;
-    }
-}
-
 
 /*Screen greater than 768px*/
 
-@media screen and (min-width: 768px) {}
-
+@media screen and (min-width: 768px) {
+}
 
 /*Screen greater than 992px*/
 
-@media screen and (min-width: 992px) {}
-
+@media screen and (min-width: 992px) {
+}
 
 /*Screen greater thab 1200 px*/
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
