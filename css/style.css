@@ -1,3 +1,6 @@
+body{
+    background-color: #000;
+}
 #one, header{
     background-color: #000;
     
@@ -23,7 +26,7 @@ false {
 }
 
 .section-title {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
 }
 
 .link {
@@ -47,7 +50,7 @@ false {
 
 .all-about-me{
 font-style: normal;
-font-size: 27px;
+font-size: 25px;
 letter-spacing: -.02em;
 text-transform: none;
 line-height: 1.5em;
@@ -62,6 +65,7 @@ padding: 10px;
 display: table;
 margin: 21px auto;
 text-align: justify;
+width: 100%;
 }
 
 .more-repo {
