@@ -8,13 +8,13 @@ body{
 
 #one a, header a{
     background-color: transparent;
-    color: #fff;
+    color: #ddd;
 }
 
 /* What you do? What I do ;p */
 .section{
     background-color: #0F1419;
-    color: #fff;
+    color: #aaa;
 }
 
 false {
@@ -27,11 +27,12 @@ false {
 
 .section-title {
     font-size: 2.4rem;
+    color: #ddd;
 }
 
 .link {
     border-radius: 5px;
-    background-color: #292f33;
+    /* background-color: #292f33; */
 }
 
 .card .name {
@@ -83,7 +84,7 @@ width: 100%;
 .link, .more-repo, .social-links{
     transition: all .2s ease-in-out; 
 }
-.link:hover, .more-repo:hover, .social-links:hover{
+ .more-repo:hover{
     box-shadow: 2px 2px 20px rgba(61, 51, 42, 0.3);
     transform: scale(1.01); 
     cursor: pointer;

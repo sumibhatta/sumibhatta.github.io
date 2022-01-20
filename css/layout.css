@@ -85,16 +85,33 @@ false {
   justify-content: center;
   padding: 50px;
 }
-.link {
-  flex: 0 0 30%;
-  /* border: 1px solid #fff; */
+/* .link {
   display: inline-block;
   min-height: 30px;
   margin: 5px;
   padding: 52px;
+} */
+.social-links{
+  display: inline-block;
+  padding: 10px;
+  margin: 20px 0;
+}
+.github-link {
+  display: inline-block;
+  min-height: 30px;
+  margin: 5px;
+  padding: 52px;
+  border: 1px solid #000;
 }
 
-
+.link{
+  width: 2.25rem;
+  height: 2.25rem;
+  fill: #aaa;
+  }
+.link:hover{
+  fill: #fff;
+}
 .more-repo {
   /* height: 10px;
   width: 150px; */
@@ -146,15 +163,13 @@ false {
   border-radius: 3px;
 }
 
-.social-links{
-  display: inline-block;
-  padding: 10px;
-  margin: 20px 0;
-}
+
 
 .messages{
   padding: 0 100px 0 0;
 }
+
+
 
 /*Screen greater than 768px*/
 
