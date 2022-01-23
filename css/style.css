@@ -87,10 +87,23 @@ width: 100%;
 .link, .more-repo, .social-links{
     transition: all .2s ease-in-out; 
 }
- .more-repo:hover, .card:hover{
+ .more-repo:hover
+ {
     box-shadow: 2px 2px 20px rgba(61, 51, 42, 0.3);
     transform: scale(1.01); 
     cursor: pointer;
+}
+.card-left{
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px 0 0 15px;
+    padding: 15px 0 15px 25px;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.card-left:hover{
+    cursor: pointer;
+    transform: translateX(-10px);
 }
 
 .input-field:focus{
