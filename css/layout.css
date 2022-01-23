@@ -79,26 +79,26 @@ false {
 /* ------------------ SECTION 1 Ends---------------------- */
 
 /* ------------------ SECTION 2 STARTS---------------------- */
-.card{
+.card {
   margin-bottom: 20px;
 }
-.card-left{
+.card-left {
   width: 50%;
-display: flex;
-padding: 0 0 0 10px;
-flex-direction: column; 
-justify-content: center;
-/* border: 1px solid red; */
+  display: flex;
+  padding: 0 0 0 10px;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
-.card-right{
+.card-right {
   width: 20%;
-display: flex;
-height: 232px;
-border: 1px solid #aaa;
-/* visibility: hidden; */
-/* display: none; */
+  display: flex;
+  height: 232px;
+  border: 1px solid #aaa;
+  /* visibility: hidden; */
+  /* display: none; */
 }
-.card-techs{
+.card-techs {
   color: #fff;
   font-size: 1.2rem;
 }
@@ -115,7 +115,7 @@ border: 1px solid #aaa;
   margin: 5px;
   padding: 52px;
 } */
-.social-links{
+.social-links {
   display: inline-block;
   padding: 10px;
   margin: 20px 0;
@@ -129,12 +129,12 @@ border: 1px solid #aaa;
   border-radius: 1px;
 }
 
-.link{
+.link {
   width: 2.25rem;
   height: 2.25rem;
   fill: #aaa;
-  }
-.link:hover{
+}
+.link:hover {
   fill: #fff;
 }
 .more-repo {
@@ -145,16 +145,15 @@ border: 1px solid #aaa;
   padding: 9px 25px;
 }
 
-.see-all-repo{
+.see-all-repo {
   border-radius: 20px;
 }
 
-
-.about-me> .section-title{
+.about-me > .section-title {
   margin-top: 40px;
 }
 
-.all-about-me{
+.all-about-me {
   padding: 26px 0;
 }
 /* ---------------------END OF --------------- */
@@ -191,13 +190,9 @@ border: 1px solid #aaa;
   border-radius: 1px;
 }
 
-
-
-.messages{
+.messages {
   padding: 0 100px 0 0;
 }
-
-
 
 /*Screen greater than 768px*/
 
@@ -213,3 +208,130 @@ border: 1px solid #aaa;
 
 @media screen and (min-width: 1200px) {
 }
+
+/* ------------------HTML PAGE ENDS RESUME STARTS------------------ */
+/* ---BODY--- */
+.body {
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  background-color: #232323;
+}
+/* -----IMAGE------- */
+.top-image {
+  margin: 3rem 0 0 0;
+}
+.top-image > img {
+  border-radius: 50%;
+  height: 12rem;
+  display: table;
+  margin: 0 auto;
+  filter: grayscale(100%);
+}
+/* Main Body */
+.main-body {
+  width: 60%;
+  margin: 0 auto;
+  color: #cfcfcf;
+  /* text-align: center; */
+}
+.resume-left-section {
+  width: 50%;
+  display: inline-block;
+  padding: 0 0 0 20px;
+  padding: 0 20px 0 0;
+}
+
+.resume-right-section {
+  width: 50%;
+  float: right;
+  padding: 0 0 0 20px;
+}
+
+/* ----Name and Description */
+.name-description {
+  text-align: center;
+  margin-top: 2rem;
+}
+.name-description h1 {
+  font-weight: normal;
+  font-size: 3.2rem;
+}
+
+/* Contact Details */
+.contact-website a {
+  color: #fff;
+}
+
+.contact-group {
+  display: table;
+  margin: 2rem auto 0 auto;
+}
+
+.contact-group p {
+  display: inline-block;
+}
+.horizontal-line {
+  width: 80%;
+  height: 1.5px;
+  background-color: #fff;
+  display: table;
+  margin: 1rem auto 5rem auto;
+}
+
+/* Resume Section */
+.resume-section-title {
+  background-color: #fff;
+  color: #262a53;
+  /* text-align: center; */
+  margin: 2rem 0 1rem 0;
+  padding: 5px 0;
+}
+.education-section .resume-section-title,
+.resume-section .resume-section-title {
+  border-radius: 0 15px 15px 0;
+}
+.trainings-section .resume-section-title,
+.skills-section .resume-section-title {
+  border-radius: 15px 0 0 15px;
+}
+
+.trainings-section> .resume-section-title{
+  margin: 0rem 0 1rem 0;
+}
+
+.resume-left-body{
+  padding-left: 5rem;
+}
+
+.resume-right-body{
+  padding-left: 2rem;
+}
+
+.seperator{
+  margin-bottom: 2rem;
+}
+
+.resume-section-greytitle{
+  color: rgba(253,253,252,0.5);
+  margin: 5px 0 ;
+}
+
+.wlit ul li{
+  list-style: disc;
+  margin-bottom: 1rem;
+}
+
+.resume-link{
+  height: 1.5rem;
+  margin: -5px 0 -5px 2rem;
+}
+
+.what-text{
+  padding: 2rem 0;
+}
+
+.resume-button> a{
+  color: #fff;
+}
+/* ------------------HTML PAGE ENDS RESUME ENDS------------------ */
