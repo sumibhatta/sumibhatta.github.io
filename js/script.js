@@ -18,18 +18,17 @@ fetch("https://api.github.com/users/sumibhatta/repos")
             let link = document.getElementsByClassName('link');
 
             for (let i = 0; i < titles.length; i++) {
-                titles[i].innerHTML = a[i]['name'];
-                languages[i].innerHTML = a[i]['language'];
-                link[i].setAttribute('href', a[i]['clone_url']);
-
+                // titles[i].innerHTML = a[i]['name'];
+                // languages[i].innerHTML = a[i]['language'];
+                // link[i].setAttribute('href', a[i]['clone_url']);
+                console.log(link[i]);
             }
 
             for (let i = 0; i < a.length; i++) {
-                console.log(a)
-                document.getElementById('obj-id').innerHTML += a[i]['id'] + "<br/>";
-                document.getElementById('main').innerHTML += a[i]['name'] + "<br/>";
-                document.getElementById('obj-links').innerHTML += a[i]['clone_url'] + "<br/>";
-
+                // console.log(a)
+                // document.getElementById('obj-id').innerHTML += a[i]['id'] + "<br/>";
+                // document.getElementById('main').innerHTML += a[i]['name'] + "<br/>";
+                // document.getElementById('obj-links').innerHTML += a[i]['clone_url'] + "<br/>";
             }
         }
     )
